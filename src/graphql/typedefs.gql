@@ -1,0 +1,7 @@
+extend type Query {
+  favoriteBooks: [Book!]
+}
+
+extend type Mutatation {
+  addBookToFavorites(book: Book!): [Book]
+}
